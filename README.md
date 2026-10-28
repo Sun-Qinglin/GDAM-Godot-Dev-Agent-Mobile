@@ -13,13 +13,10 @@
 
 ## 📱 应用截图
 
-<!-- 把截图放到 screenshots/ 目录下，替换下面的链接 -->
-<!-- ![聊天界面](screenshots/chat.png) -->
-<!-- ![文件浏览器](screenshots/files.png) -->
-<!-- ![设置页面](screenshots/settings.png) -->
+![聊天界面](screenshots/2a9180a0ceee41a28e90dd08b8b7bed4.png)
+![文件浏览器](screenshots153440740d24463b8f41c00e99fac78a.png)
+![设置页面](screenshots/b2c731dd9cb74997b7019ca069edb6fb.png)
 
-> **截图占位说明**：把你的 App 截图放到 `screenshots/` 文件夹，然后把上面注释去掉即可。
-> 推荐尺寸：竖屏 1080×1920 或 1440×2560。
 
 ---
 
@@ -323,10 +320,8 @@ POST /chat/completions（stream=true, tools=[7 个工具], tool_choice=auto）
 
 如果这个项目帮到了你，可以请作者喝杯咖啡 ☕
 
-> **收款码说明**：把你的收款码图片（建议 512×512 PNG）放到 `assets/donate/` 目录下，
-> 然后把下面的注释去掉即可。GitHub 会自动渲染图片。
 
-<!-- <div align="center">
+<div align="center">
   <table>
     <tr>
       <td align="center">
@@ -339,7 +334,7 @@ POST /chat/completions（stream=true, tools=[7 个工具], tool_choice=auto）
       </td>
     </tr>
   </table>
-</div> -->
+</div>
 
 ---
 
