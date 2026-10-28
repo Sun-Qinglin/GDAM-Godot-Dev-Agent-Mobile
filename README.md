@@ -14,7 +14,7 @@
 ## 📱 应用截图
 
 ![聊天界面](screenshots/2a9180a0ceee41a28e90dd08b8b7bed4.png)
-![文件浏览器](screenshots153440740d24463b8f41c00e99fac78a.png)
+![文件浏览器](screenshots/153440740d24463b8f41c00e99fac78a.png)
 ![设置页面](screenshots/b2c731dd9cb74997b7019ca069edb6fb.png)
 
 
