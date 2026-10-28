@@ -1,0 +1,45 @@
+name: godot_dev_agent_mobile
+description: >-
+  GDAM (Godot Dev Agent Mobile) - 在安卓手机端以自然语言驱动 Godot 项目开发的 AI Agent。
+publish_to: 'none'
+version: 0.3.0+3
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 状态管理（强制技术栈）
+  flutter_riverpod: ^2.6.1
+  # 网络请求 + SSE 流式
+  dio: ^5.7.0
+  # 代码编辑器（GDScript 语法高亮）
+  flutter_code_editor: ^0.3.5
+  highlight: ^0.7.0
+  flutter_highlight: ^0.7.0
+  # 代码对比
+  diff_match_patch: ^0.4.1
+  # 本地存储
+  shared_preferences: ^2.3.2
+  # API Key 加密存储（Android Keystore）
+  flutter_secure_storage: ^9.2.2
+  # 路径
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  # 火山方舟管控面 OpenAPI 的 V4 签名（HMAC-SHA256）
+  crypto: ^3.0.5
+  # 所有文件访问权限（MANAGE_EXTERNAL_STORAGE）
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # 内置 Skill（Markdown 规则文件），可在设置页启用/禁用
+    - assets/skills/
